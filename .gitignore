@@ -1,0 +1,48 @@
+# Go binary output
+/bin/
+/obj/
+
+# Dependency directories
+/vendor/
+
+# Go test binary
+*.test
+
+# Coverage output
+*.out
+
+# IDE/Editor folders and files (you can adjust for your own editor)
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# GoLand IDE specific files (if you use GoLand)
+.idea/
+
+# Other editor-specific files
+*.sublime-workspace
+*.sublime-project
+
+# .env file (if using env variables for secrets, etc.)
+.env
+
+# Generated files from protoc (if you're using Protocol Buffers)
+*.pb.go
+
+# Gorm generated files or SQLite files
+*.db
+
+# Optional, if you're using Docker
+.docker/
+docker-compose.yml
+
+# Log files
+*.log
+
+# Temporary files created by editors or by Go
+*.swp
+*.swo
+
